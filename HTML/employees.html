@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-n/Qa9x/cUBNQubWbIdCTtkLhOTRtCjig2MFCfexmFTxouVzBWZweerz2zI5qkQyOd0sD7+eG+Mu3IEUHGjgugw==" crossorigin="anonymous" />
+    <title>Hospital Management System - Employee Details</title>
+    <link rel="stylesheet" href="../CSS/styles(employees).css">
+</head>
+<body>
+    <header class="header">
+        <img src="../IMAGES/logo(hospital).png" style="height: 70px; width: 70px; border-radius: 50px;">
+        <h1><b>Hospital</b></h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <p>Welcome to [Hospital Management System Name], your comprehensive solution for efficient and streamlined healthcare management. Our cutting-edge system is designed to optimize every aspect of hospital operations, ensuring seamless workflow and exceptional patient care. From patient registration to billing and beyond, we provide the tools you need to enhance efficiency, reduce costs, and improve overall performance. Discover the power of [Hospital Management System Name] and revolutionize the way you manage your healthcare facility today.</p>
+    </section>
+    <section class="wrapper" id="wrapper">
+        <h1>Employee Details</h1>
+        <form id="employeeForm">
+            <input type="hidden" id="employeeId" name="employeeId">
+            <label for="employeeName">Employee Name:</label>
+            <input type="text" id="employeeName" name="employeeName" required>
+            <label for="employeePosition">Position:</label>
+            <input type="text" id="employeePosition" name="employeePosition" required>
+            <label for="employeeContact">Contact:</label>
+            <input type="text" id="employeeContact" name="employeeContact" required>
+            <button type="submit">Save Employee</button>
+        </form>
+        <h2>Employee List</h2>
+        <table id="employeeTable">
+            <thead>
+                <tr>
+                    <th>Employee ID</th>
+                    <th>Employee Name</th>
+                    <th>Position</th>
+                    <th>Contact</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be populated here by JavaScript -->
+            </tbody>
+        </table>
+    </section>
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>At [Hospital Management System Name], we are dedicated to revolutionizing healthcare management through innovation and technology. With years of experience in the healthcare industry, our team understands the challenges faced by hospitals and healthcare facilities. That's why we've developed a state-of-the-art hospital management system that empowers organizations to streamline operations, improve patient outcomes, and drive growth. Our commitment to excellence and customer satisfaction drives everything we do, and we are proud to be a trusted partner to hospitals around the globe.</p>
+    </section>
+    <section class="services" id="services">
+        <h2>Services</h2>
+        <p>[Hospital Management System Name] offers a comprehensive suite of services designed to meet the unique needs of hospitals and healthcare facilities. Our feature-rich hospital management system includes modules for patient management, appointment scheduling, electronic health records (EHR), billing and invoicing, inventory management, and more. With customizable solutions tailored to your specific requirements, we empower organizations to enhance efficiency, reduce administrative burdens, and deliver superior patient care. Whether you're a small clinic or a large hospital network, [Hospital Management System Name] has the tools you need to succeed in today's dynamic healthcare landscape.</p>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+    <script src="../JS/script(employees).js"></script>
+</body>
+</html>
