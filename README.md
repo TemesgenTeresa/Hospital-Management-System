@@ -10,6 +10,6 @@ Languages and Technologies used
 5. Php
 7. MySQL (An RDBMS that uses SQL)
 8. TCPDF (to generate PDFs)
-9.AJAX
+# and finally AJAX
 
 
