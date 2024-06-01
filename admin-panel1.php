@@ -573,15 +573,13 @@ if(isset($_POST['docsub1']))
                       #$email = $row['email'];
                       #$contact = $row['contact'];
                   ?>
-                   <?php
-                      <tr>
+                   <tr>
                         <td><?php echo $row['name'];?></td>
                         <td><?php echo $row['email'];?></td>
                         <td><?php echo $row['contact'];?></td>
                         <td><?php echo $row['message'];?></td>
                       </tr>
-                    } 
-                    ?>
+                     <?php } ?>
                 </tbody>
               </table>
         <br>
